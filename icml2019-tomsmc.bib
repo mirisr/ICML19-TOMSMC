@@ -1,0 +1,571 @@
+@article{deisenroth2011survey,
+  title = {A {{Survey}} on {{Policy Search}} for {{Robotics}}},
+  volume = {2},
+  doi = {10.1561/2300000021},
+  abstract = {Policy search is a subfield in reinforcement learning which focuses on finding good parameters for a given policy parametrization. It is well suited for robotics as it can cope with high-dimensional state and action spaces, one of the main challenges in robot learning. We review recent successes of both model-free and model-based policy search in robot learning. Model-free policy search is a general approach to learn policies based on sampled trajectories. We classify model-free methods based on their policy evaluation strategy, policy update strategy, and exploration strategy and present a unified view on existing algorithms. Learning a policy is often easier than learning an accurate forward model, and, hence, model-free methods are more frequently used in practice. However, for each sampled trajectory, it is necessary to interact with the robot, which can be time consuming and challenging in practice. Model-based policy search addresses this problem by first learning a simulator of the robot's dynamics from data. Subsequently, the simulator generates trajectories that are used for policy learning. For both model-free and model-based policy search methods, we review their respective properties and their applicability to robotic systems.},
+  number = {2011},
+  journal = {Foundations and Trends in Robotics},
+  author = {Deisenroth, Marc Peter and Nuemann, Gerhard and Peters, Jan},
+  year = {2011},
+  keywords = {Artificial Intelligence in Robotics,Markov Decision Processes,Planning and Control,Policy Search},
+  pages = {1-142},
+  file = {/Users/janwillem/Zotero/storage/SNFCLFKA/Deisenroth - 2011 - A Survey on Policy Search for Robotics.pdf}
+}
+
+@article{rawlik2012stochastic,
+  title = {On {{Stochastic Optimal Control}} and {{Reinforcement Learning}} by {{Approximate Inference}}},
+  number = {2},
+  journal = {On Stochastic Optimal Control and Reinforcement Learning by Approximate Inference},
+  author = {Rawlik, Konrad and Toussaint, Marc and Vijayakumar, Sethu},
+  year = {2012},
+  file = {/Users/janwillem/Zotero/storage/VQRYI8GC/Rawlik - 2012 - On Stochastic Optimal Control and Reinforcement Learning by Approximate.pdf}
+}
+
+@article{wingate2013automated,
+  title = {Automated Variational Inference in Probabilistic Programming},
+  abstract = {We present a new algorithm for approximate inference in probabilistic programs, based on a stochastic gradient for variational programs. This method is efficient without restrictions on the probabilistic program; it is particularly practical for distributions which are not analytically tractable, including highly structured distributions that arise in probabilistic programs. We show how to automatically derive mean-field probabilistic programs and optimize them, and demonstrate that our perspective improves inference efficiency over other algorithms.},
+  journal = {arXiv preprint arXiv:1301.1299},
+  author = {Wingate, David and Weber, Theo},
+  year = {2013},
+  pages = {1-7},
+  file = {/Users/janwillem/Zotero/storage/ZBRY7BQ8/Wingate - 2013 - Automated variational inference in probabilistic programming.pdf}
+}
+
+
+
+
+@article{williams1992simple,
+  title = {Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning},
+  volume = {8},
+  issn = {0885-6125},
+  doi = {10.1007/BF00992696},
+  abstract = {This article presents a general class of associative reinforcement learning algorithms for connectionist networks containing stochastic units. These algorithms, called REINFORCE algorithms, are shown to make weight adjustments in a direction that lies along the gradient of expected reinforcement in both immediate-reinforcement tasks and certain limited forms of delayed-reinforcement tasks, and they do this without explicitly computing gradient estimates or even storing information from which such estimates could be computed. Specific examples of such algorithms are presented, some of which bear a close relationship to certain existing algorithms while others are novel but potentially interesting in their own right. Also given are results that show how such algorithms can be naturally integrated with backpropagation. We close with a brief discussion of a number of additional issues surrounding the use of such algorithms, including what is known about their limiting behaviors as well as further considerations that might be used to help develop similar but potentially more powerful reinforcement learning algorithms.},
+  number = {3-4},
+  journal = {Machine Learning},
+  author = {Williams, Ronald J.},
+  year = {1992},
+  keywords = {Reinforcement learning,connectionist networks,gradient descent,mathematical analysis},
+  pages = {229-256},
+  file = {/Users/janwillem/Zotero/storage/FP24PEJJ/Williams - 1992 - Simple statistical gradient-following algorithms for connectionist.pdf}
+}
+
+
+
+
+
+
+
+@article{rainforth2018nestingb,
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1803.06328},
+  title = {Nesting {{Probabilistic Programs}}},
+  abstract = {We formalize the notion of nesting probabilistic programming queries and investigate the resulting statistical implications. We demonstrate that while query nesting allows the definition of models which could not otherwise be expressed, such as those involving agents reasoning about other agents, existing systems take approaches which lead to inconsistent estimates. We show how to correct this by delineating possible ways one might want to nest queries and asserting the respective conditions required for convergence. We further introduce a new online nested Monte Carlo estimator that makes it substantially easier to ensure these conditions are met, thereby providing a simple framework for designing statistically correct inference engines. We prove the correctness of this online estimator and show that, when using the recommended setup, its asymptotic variance is always better than that of the equivalent fixed estimator, while its bias is always within a factor of two.},
+  journal = {Uncertainty in Artificial Intelligence},
+  author = {Rainforth, Tom},
+  month = mar,
+  year = {2018},
+  keywords = {Computer Science - Programming Languages,Statistics - Computation,Statistics - Machine Learning},
+  file = {/Users/janwillem/Local/Zotero/storage/VDAEXVBZ/Rainforth - 2018 - Nesting Probabilistic Programs.pdf;/Users/janwillem/Local/Zotero/storage/8W9A3CU9/1803.html}
+}
+
+@inproceedings{rainforth2018nesting,
+  title = {On {{Nesting Monte Carlo Estimators}}},
+  abstract = {Many problems in machine learning and statistics involve nested expectations and thus do not permit conventional Monte Carlo (MC) estimation. For such problems, one must nest estimators, such that ...},
+  language = {en},
+  booktitle = {International {{Conference}} on {{Machine Learning}}},
+  author = {Rainforth, Tom and Cornish, Rob and Yang, Hongseok and Warrington, Andrew and Wood, Frank},
+  month = jul,
+  year = {2018},
+  pages = {4267-4276},
+  file = {/Users/janwillem/Local/Zotero/storage/LD6DIWDP/Rainforth - 2018 - On Nesting Monte Carlo Estimators.pdf;/Users/janwillem/Local/Zotero/storage/C68HYMNQ/rainforth18a.html}
+}
+
+
+
+@article{todorov2009efficient,
+  title = {Efficient Computation of Optimal Actions.},
+  volume = {106},
+  issn = {0710743106},
+  doi = {10.1073/pnas.0710743106},
+  abstract = {Optimal choice of actions is a fundamental problem relevant to fields as diverse as neuroscience, psychology, economics, computer science, and control engineering. Despite this broad relevance the abstract setting is similar: we have an agent choosing actions over time, an uncertain dynamical system whose state is affected by those actions, and a performance criterion that the agent seeks to optimize. Solving problems of this kind remains hard, in part, because of overly generic formulations. Here, we propose a more structured formulation that greatly simplifies the construction of optimal control laws in both discrete and continuous domains. An exhaustive search over actions is avoided and the problem becomes linear. This yields algorithms that outperform Dynamic Programming and Reinforcement Learning, and thereby solve traditional problems more efficiently. Our framework also enables computations that were not possible before: composing optimal control laws by mixing primitives, applying deterministic methods to stochastic systems, quantifying the benefits of error tolerance, and inferring goals from behavioral data via convex optimization. Development of a general class of easily solvable problems tends to accelerate progress--as linear systems theory has done, for example. Our framework may have similar impact in fields where optimal choice of actions is relevant.},
+  number = {28},
+  journal = {Proceedings of the National Academy of Sciences of the United States of America},
+  author = {Todorov, Emanuel},
+  year = {2009},
+  pages = {11478-11483},
+  file = {/Users/janwillem/Zotero/storage/XGGQWP85/Todorov - 2009 - Efficient computation of optimal actions.pdf}
+}
+
+@article{todeschini2014biips,
+  title = {Biips: Software for {{Bayesian}} Inference with Interacting Particle Systems},
+  shorttitle = {Biips},
+  journal = {arXiv preprint arXiv:1412.3779},
+  author = {Todeschini, Adrien and Caron, Fran{\c c}ois and Fuentes, Marc and Legrand, Pierrick and Del Moral, Pierre},
+  year = {2014}
+}
+
+@article{murray2013,
+	Author = {L. M. Murray},
+	Journal = {arXiv preprint arXiv:1306.3277},
+	Title = {Bayesian state-space modelling on high-performance hardware using {L}ib{B}i},
+	Year = {2013}}
+
+@article{venture,
+	Author = {Vikash Mansinghka and Daniel Selsam and Yura Perov},
+	Journal = {arXiv preprint arXiv:1404.0099},
+	Title = {Venture: a higher-order probabilistic programming platform with programmable inference},
+	Year = {2014}}
+
+@misc{goodman2014dippl,
+  title = {{The Design and Implementation of Probabilistic Programming Languages}},
+  author = {Goodman, Noah D and Stuhlm\"{u}ller, Andreas},
+  year = {2014},
+  howpublished = {\url{http://dippl.org}},
+  note = {Accessed: 2017-8-22}
+}
+
+@InProceedings{ge2016turing,
+  title =      {Turing: A Language for Flexible Probabilistic Inference},
+  author =      {Hong Ge and Kai Xu and Zoubin Ghahramani},
+  booktitle =      {Proceedings of the Twenty-First International Conference on Artificial Intelligence and Statistics},
+  pages =      {1682--1690},
+  year =      {2018},
+  editor =      {Amos Storkey and Fernando Perez-Cruz},
+  volume =      {84},
+  series =      {Proceedings of Machine Learning Research},
+  address =      {Playa Blanca, Lanzarote, Canary Islands},
+  month =      {09--11 Apr},
+  publisher =      {PMLR}}
+
+@misc{standevelopmentteam2014stan,
+  title = {Stan: {{A C}}++ {{Library}} for {{Probability}} and {{Sampling}}, {{Version}} 2.4},
+  author = {{Stan Development Team}},
+  year = {2014}
+}
+
+@article{vandemeent2018introduction,
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1809.10756},
+  primaryClass = {cs, stat},
+  title = {An {{Introduction}} to {{Probabilistic Programming}}},
+  abstract = {This document is designed to be a first-year graduate-level introduction to probabilistic programming. It not only provides a thorough background for anyone wishing to use a probabilistic programming system, but also introduces the techniques needed to design and build these systems. It is aimed at people who have an undergraduate-level understanding of either or, ideally, both probabilistic machine learning and programming languages. We start with a discussion of model-based reasoning and explain why conditioning as a foundational computation is central to the fields of probabilistic machine learning and artificial intelligence. We then introduce a simple first-order probabilistic programming language (PPL) whose programs define static-computation-graph, finite-variable-cardinality models. In the context of this restricted PPL we introduce fundamental inference algorithms and describe how they can be implemented in the context of models denoted by probabilistic programs. In the second part of this document, we introduce a higher-order probabilistic programming language, with a functionality analogous to that of established programming languages. This affords the opportunity to define models with dynamic computation graphs, at the cost of requiring inference methods that generate samples by repeatedly executing the program. Foundational inference algorithms for this kind of probabilistic programming language are explained in the context of an interface between program executions and an inference controller. This document closes with a chapter on advanced topics which we believe to be, at the time of writing, interesting directions for probabilistic programming research; directions that point towards a tight integration with deep neural network research and the development of systems for next-generation artificial intelligence applications.},
+  journal = {arXiv:1809.10756 [cs, stat]},
+  author = {{van de Meent}, Jan-Willem and Paige, Brooks and Yang, Hongseok and Wood, Frank},
+  month = sep,
+  year = {2018},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Computer Science - Programming Languages,Statistics - Machine Learning},
+  file = {/Users/janwillem/Zotero/storage/D3M245LQ/van de Meent - 2018 - An Introduction to Probabilistic Programming.pdf}
+}
+
+
+@article{vandemeent2016black-box,
+  title = {Black-{{Box Policy Search}} with {{Probabilistic Programs}}},
+  journal = {Proceedings of the 19th International Conference on Artificial Intelligence and Statistics},
+  author = {{van de Meent}, Jan-Willem and Paige, Brooks and Tolpin, David and Wood, Frank},
+  year = {2016},
+  pages = {1195--1204}
+}
+
+
+
+
+@inproceedings{naesseth2015nested,
+  title = {Nested Sequential Monte Carlo Methods},
+  booktitle = {International {{Conference}} on {{Machine Learning}}},
+  author = {Naesseth, Christian and Lindsten, Fredrik and Schon, Thomas},
+  year = {2015},
+  pages = {1292--1301},
+  file = {/Users/janwillem/Zotero/storage/8FMENE2H/Naesseth - 2015 - Nested sequential monte carlo methods.pdf;/Users/janwillem/Zotero/storage/DX3UCGPF/Naesseth et al. - 2015 - Nested sequential monte carlo methods.pdf}
+}
+
+
+
+
+@inproceedings{ rainforth16,
+  title = "On the Pitfalls of Nested Monte Carlo",
+  author = "Tom Rainforth and Robert Cornish and Hongseok Yang and Frank Wood",
+  booktitle = "NIPS Workshop on Advances in Approximate Bayesian Inference",
+  year = 2016
+}
+
+@book{mcbook,
+   author = {Art B. Owen},
+   year = 2013,
+   title = {Monte Carlo theory, methods and examples}
+}
+
+@inproceedings{ milch05,
+  author = "Brian Milch and Bhaskara Marthi and Stuart Russell and David Sontag and Daniel L. Ong and Andrey Kolobov",
+  title = "BLOG: Probabilistic Models with Unknown Objects",
+  booktitle = "International Joint Conference on Artificial Intelligence (IJCAI)",
+  pages = "1352-1359",
+  year="2005"
+}
+
+@article{cusumanotowner16b,
+  author    = {Marco F. Cusumano{-}Towner and
+              Vikash K. Mansinghka},
+  title     = {Encapsulating models and approximate inference programs in probabilistic
+              modules},
+  journal   = {CoRR},
+  volume    = {abs/1612.04759},
+  year      = {2016},
+  url       = {http://arxiv.org/abs/1612.04759},
+  archivePrefix = {arXiv},
+  eprint    = {1612.04759},
+  timestamp = {Wed, 07 Jun 2017 14:42:51 +0200},
+  biburl    = {http://dblp.org/rec/bib/journals/corr/Cusumano-Towner16b},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@article{wellman1990child,
+  title={The child's theory of mind},
+  author={Wellman, Henry M},
+  year={1990}
+}
+
+@inproceedings{Pfeffer01,
+	Author = {Avi Pfeffer},
+	Booktitle = {International Joint Conference on Artificial Intelligence ({IJCAI})},
+	Pages = {733-740},
+	Title = {{IBAL}: A probabilistic rational programming language},
+	Year = {2001}}
+
+@misc{InferNET10,
+	Author = {Minka, T. and Winn, J.M. and Guiver, J.P. and Knowles, D.A.},
+	Note = {Microsoft Research Cambridge},
+	Title = {{Infer.NET 2.4}},
+	Year = 2010}
+
+
+@inproceedings{wood-aistats-2014,
+  author = {Frank Wood and Jan Willem van de Meent and Vikash Mansinghka },
+  booktitle = {International Conference on Artificial Intelligence and Statistics (AISTATS)},
+  title = {A New Approach to Probabilistic Programming Inference},
+  pages = {1024-1032},
+  year = {2014}
+}
+
+@techreport{toussaint06,                                                        
+        Author = {Marc Toussaint and Stefan Harmeling and Amos Storkey},        
+        Institution = {University of Edinburgh},                                
+        Number = {EDI-INF-RR-0934},                                             
+        Title = {Probabilistic inference for solving {(PO)MDP}s},               
+        Year = 2006}                                                            
+                                                      
+@inproceedings{wingate11,                                                       
+        Author = {David Wingate and Andreas Stuhlmueller and Noah D. Goodman},  
+        Booktitle = {International Conference on Artificial Intelligence and Statistics ({AISTATS})},                                                          
+        Title = {Lightweight Implementations of Probabilistic Programming Languages via Transformational Compilation},                                         
+        Year = {2011}}                                                          
+
+@inproceedings{ ranganath2014black,
+    author = {Ranganath, Rajesh and Gerrish, Sean and Blei, David M},
+    title = {Black Box Variational Inference.},
+    booktitle = {AISTATS},
+    pages = {814--822},
+    year = {2014}
+}
+
+@article{frith2005theory,
+  title={Theory of mind},
+  author={Frith, Chris and Frith, Uta},
+  journal={Current Biology},
+  volume={15},
+  number={17},
+  pages={R644--R645},
+  year={2005},
+  publisher={Elsevier}
+}
+
+@article{ isovist79,
+author = {M L Benedikt},
+title = {To Take Hold of Space: Isovists and Isovist Fields},
+journal = {Environment and Planning B: Planning and Design},
+volume = {6},
+number = {1},
+pages = {47-65},
+year = {1979},
+doi = {10.1068/b060047},
+
+URL = { 
+        http://dx.doi.org/10.1068/b060047
+    
+},
+eprint = { 
+        http://dx.doi.org/10.1068/b060047
+    
+}
+,
+    abstract = { The environment is defined as a collection of visible real surfaces in space. An isovist is the set of all points visible from a given vantage point in space and with respect to an environment. The shape and size of an isovist is liable to change with position. Numerical measures are proposed that quantify some salient size and shape features. These measures in turn create a set of scalar isovist fields. Sets of isovists and isovist fields form an alternative description of environments. The method seems relevant to behavioral and perceptual studies in architecture, especially in the areas of view control, privacy, ‘defensibility’, and in dynamic complexity and spaciousness judgements. Isovists and isovist fields also shed light on the meaning of prevalent architectural notions about space. In the latter role it is hoped that an information-field theory such as the one presented can help provide fruitful common ground for designers and researchers. }
+}
+
+@article{baker2014modeling,
+  title={Modeling human plan recognition using bayesian theory of mind},
+  author={Baker, Chris L and Tenenbaum, Joshua B},
+  journal={Plan, activity, and intent recognition: Theory and practice},
+  pages={177--204},
+  year={2014}
+}
+
+@inproceedings{morariu2007human,
+  title={Human activity understanding using visibility context},
+  author={Morariu, Vlad I and Prasad, V Shiv Naga and Davis, Larry S},
+  booktitle={IEEE/RSJ IROS Workshop: From sensors to human spatial concepts (FS2HSC)},
+  year={2007}
+}
+
+@article{kaelbling1998planning,
+  title={Planning and acting in partially observable stochastic domains},
+  author={Kaelbling, Leslie Pack and Littman, Michael L and Cassandra, Anthony R},
+  journal={Artificial intelligence},
+  volume={101},
+  number={1},
+  pages={99--134},
+  year={1998},
+  publisher={Elsevier}
+}
+
+@article{lavalle1998rapidly,
+  title={Rapidly-exploring random trees: A new tool for path planning},
+  author={LaValle, Steven M},
+  year={1998},
+  publisher={Citeseer}
+}
+
+
+@inproceedings{sadigh2016information,
+  title={Information gathering actions over human internal state},
+  author={Sadigh, Dorsa and Sastry, S Shankar and Seshia, Sanjit A and Dragan, Anca},
+  booktitle={Intelligent Robots and Systems (IROS), 2016 IEEE/RSJ International Conference on},
+  pages={66--73},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{stuhlmuller2014reasoning,
+  title={Reasoning about reasoning by nested conditioning: Modeling theory of mind with probabilistic programs},
+  author={Stuhlm{\"u}ller, Andreas and Goodman, Noah D},
+  journal={Cognitive Systems Research},
+  volume={28},
+  pages={80--99},
+  year={2014},
+  publisher={Elsevier}
+}
+
+@inproceedings{awais2010human,
+  title={Human-robot collaboration by intention recognition using probabilistic state machines},
+  author={Awais, Muhammad and Henrich, Dominik},
+  booktitle={Robotics in Alpe-Adria-Danube Region (RAAD), 2010 IEEE 19th International Workshop on},
+  pages={75--80},
+  year={2010},
+  organization={IEEE}
+}
+
+@article{baker2009action,
+  title={Action understanding as inverse planning},
+  author={Baker, Chris L and Saxe, Rebecca and Tenenbaum, Joshua B},
+  journal={Cognition},
+  volume={113},
+  number={3},
+  pages={329--349},
+  year={2009},
+  publisher={Elsevier}
+}
+
+@inproceedings{fern2007decision,
+  title={A Decision-Theoretic Model of Assistance.},
+  author={Fern, Alan and Natarajan, Sriraam and Judah, Kshitij and Tadepalli, Prasad},
+  booktitle={IJCAI},
+  pages={1879--1884},
+  year={2007}
+}
+
+@inproceedings{bello2006developmental,
+  title={Developmental accounts of theory-of-mind acquisition: Achieving clarity via computational cognitive modeling},
+  author={Bello, Paul and Cassimatis, Nicholas},
+  booktitle={Proceedings of the Twenty-Eighth Annual Conference of the Cognitive Science Society},
+  pages={1014--1019},
+  year={2006}
+}
+
+@article{nguyen2012capir,
+  title={Capir: Collaborative action planning with intention recognition},
+  author={Nguyen, Truong-Huy Dinh and Hsu, David and Lee, Wee-Sun and Leong, Tze-Yun and Kaelbling, Leslie Pack and Lozano-Perez, Tomas and Grant, Andrew Haydn},
+  journal={arXiv preprint arXiv:1206.5928},
+  year={2012}
+}
+
+@inproceedings{goodman2009cause,
+  title={Cause and intent: Social reasoning in causal learning},
+  author={Goodman, Noah D and Baker, Chris L and Tenenbaum, Joshua B},
+  booktitle={Proceedings of the 31st annual conference of the cognitive science society},
+  pages={2759--2764},
+  year={2009},
+  organization={Citeseer}
+}
+
+@inproceedings{goodman2006intuitive,
+  title={Intuitive theories of mind: A rational approach to false belief},
+  author={Goodman, Noah D and Baker, Chris L and Bonawitz, Elizabeth Baraff and Mansinghka, Vikash K and Gopnik, Alison and Wellman, Henry and Schulz, Laura and Tenenbaum, Joshua B},
+  booktitle={Proceedings of the twenty-eighth annual conference of the cognitive science society},
+  pages={1382--1387},
+  year={2006}
+}
+
+@article{wimmer1983beliefs,
+  title={Beliefs about beliefs: Representation and constraining function of wrong beliefs in young children's understanding of deception},
+  author={Wimmer, Heinz and Perner, Josef},
+  journal={Cognition},
+  volume={13},
+  number={1},
+  pages={103--128},
+  year={1983},
+  publisher={Elsevier}
+}
+
+@inproceedings{zettlemoyer2009multi,
+  title={Multi-agent filtering with infinitely nested beliefs},
+  author={Zettlemoyer, Luke and Milch, Brian and Kaelbling, Leslie P},
+  booktitle={Advances in neural information processing systems},
+  pages={1905--1912},
+  year={2009}
+}
+
+@inproceedings{ghahramani2003bayesian,
+  title={Bayesian learning in undirected graphical models},
+  author={Ghahramani, Zoubin},
+  booktitle={Talk given at the Machine Learning lunch seminar at CMU},
+  year={2003}
+}
+
+@inproceedings{koller1997effective,
+  title={Effective Bayesian inference for stochastic programs},
+  author={Koller, Daphne and McAllester, David and Pfeffer, Avi},
+  booktitle={AAAI/IAAI},
+  pages={740--747},
+  year={1997}
+}
+
+@article{chater2006probabilistic,
+  title={Probabilistic models of cognition: Conceptual foundations},
+  author={Chater, Nick and Tenenbaum, Joshua B and Yuille, Alan},
+  journal={Trends in cognitive sciences},
+  volume={10},
+  number={7},
+  pages={287--291},
+  year={2006},
+  publisher={Elsevier}
+}
+
+@article{goodman2013knowledge,
+  title={Knowledge and implicature: Modeling language understanding as social cognition},
+  author={Goodman, Noah D and Stuhlm{\"u}ller, Andreas},
+  journal={Topics in cognitive science},
+  volume={5},
+  number={1},
+  pages={173--184},
+  year={2013},
+  publisher={Wiley Online Library}
+}
+
+@article{wingate2013VariationalInference,
+  author    = {David Wingate and
+               Theophane Weber},
+  title     = {Automated Variational Inference in Probabilistic Programming},
+  journal   = {CoRR},
+  volume    = {abs/1301.1299},
+  year      = {2013},
+  url       = {http://arxiv.org/abs/1301.1299},
+  timestamp = {Fri, 01 Feb 2013 00:00:00 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/abs-1301-1299},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+
+@misc{BremenPointCloud,
+  title = {Dataset generated by Dorit Borrman and Andreas Nuchter of Jacobs University Bremen},
+  author = {Dorit Borrman and Andreas Nuchter},
+howpublished = {\url{http://kos.informatik.uni-osnabrueck.de/3Dscans/}},
+  year = 2017,
+  note = {Accessed: 2017}
+}
+
+@article{Hoffman2013,
+ author = {Hoffman, Matthew D. and Blei, David M. and Wang, Chong and Paisley, John},
+ title = {Stochastic Variational Inference},
+ journal = {J. Mach. Learn. Res.},
+ issue_date = {January 2013},
+ volume = {14},
+ number = {1},
+ month = may,
+ year = {2013},
+ issn = {1532-4435},
+ pages = {1303--1347},
+ numpages = {45},
+ url = {http://dl.acm.org/citation.cfm?id=2502581.2502622},
+ acmid = {2502622},
+ publisher = {JMLR.org},
+ keywords = {Bayesian inference, Bayesian nonparametrics, stochastic optimization, topic models, variational inference},
+} 
+
+@article{mansinghka2014venture,
+  title={Venture: a higher-order probabilistic programming platform with programmable inference},
+  author={Mansinghka, Vikash and Selsam, Daniel and Perov, Yura},
+  journal={arXiv preprint arXiv:1404.0099},
+  year={2014}
+}
+
+@article{tolpin2016design,
+  title = {Design and Implementation of Probabilistic Programming Language Anglican},
+  author = {Tolpin, David and van de Meent, Jan Willem and Yang, Hongseok and Wood, Frank},
+  journal = {arXiv preprint arXiv:1608.05263},
+  year = {2016}
+}
+
+@INPROCEEDINGS{ goodman08,
+  AUTHOR = "Noah Goodman and Vikash Mansinghka and Daniel Roy and Keith Bonawitz and Joshua Tenenbaum",
+  TITLE = "Church: a language for generative models",
+  BOOKTITLE = "Uncertainty in Artificial Intelligence (UAI)",
+  YEAR = "2008",
+  PAGES = ""
+}
+
+@article{kingma2014adam,
+  title={Adam: A method for stochastic optimization},
+  author={Kingma, Diederik and Ba, Jimmy},
+  journal={arXiv preprint arXiv:1412.6980},
+  year={2014}
+}
+%-------------------------------
+@article{yan2018multiagent,
+  title={Multiagent Pursuit-Evasion Problem with the Pursuers Moving at Uncertain Speeds},
+  author={Yan, Fuhan and Jiang, Jiuchuan and Di, Kai and Jiang, Yichuan and Hao, Zhifeng},
+  journal={Journal of Intelligent \& Robotic Systems},
+  pages={1--17},
+  year={2018},
+  publisher={Springer}
+}
+
+@article{makkapati2018optimal,
+  title={Optimal Evading Strategies for Two-Pursuer/One-Evader Problems},
+  author={Makkapati, Venkata Ramana and Sun, Wei and Tsiotras, Panagiotis},
+  journal={Journal of Guidance, Control, and Dynamics},
+  volume={41},
+  number={4},
+  pages={851--862},
+  year={2018},
+  publisher={American Institute of Aeronautics and Astronautics}
+}
+
+@article{oyler2016pursuit,
+  title={Pursuit--evasion games in the presence of obstacles},
+  author={Oyler, Dave W and Kabamba, Pierre T and Girard, Anouck R},
+  journal={Automatica},
+  volume={65},
+  pages={1--11},
+  year={2016},
+  publisher={Elsevier}
+}
